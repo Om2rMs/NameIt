@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/NameIt/static/css/main.72acc6ec.css",
+    "main.js": "/NameIt/static/js/main.e3fb8b83.js",
+    "static/media/Social_user.png": "/NameIt/static/media/Social_user.adb42a1f49120dcbf69c.png",
+    "index.html": "/NameIt/index.html",
+    "main.72acc6ec.css.map": "/NameIt/static/css/main.72acc6ec.css.map",
+    "main.e3fb8b83.js.map": "/NameIt/static/js/main.e3fb8b83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72acc6ec.css",
+    "static/js/main.e3fb8b83.js"
+  ]
+}
