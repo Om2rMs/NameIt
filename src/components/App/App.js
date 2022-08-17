@@ -9,7 +9,7 @@ const name = require(`@rstacruz/startup-name-generator`);
 
 //functional component
 const App = () => {
-    const [headertext, setHeadertext] = useState('Name It!');
+    const [headertext, setHeadertext] = useState('Search User!');
     const [headerExpanded, setHeaderExpanded] = useState(true);
     const [suggestedNames, setSuggestedNames] = useState([]);
     const [writtenName, setWrittenName] = useState('');
