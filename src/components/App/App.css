@@ -1,9 +1,22 @@
 body {
-    background-color: rgb(37, 49, 188);
+    background-color: rgb(185, 186, 198);
     overflow-x: hidden;
-    color: rgb(235, 235, 229);
+    color: rgb(0, 0, 0);
     font-family: 'Lato', sans-serif;
-    
-    
 
+
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.left-side {
+    padding: 10px;
 }

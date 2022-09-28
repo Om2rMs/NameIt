@@ -5,7 +5,7 @@ import './ResultContainer.css'
 
 const ResultContainer = ({ SuggestedNames, writtenName, HeaderExpanded }) => {
     //first thing we display all list of suggested name
-    const youtubeSearch =
+    const InstaSearch =
         'https://www.instagram.com/';
     const currentName = writtenName;
     const SuggestNameJs = SuggestedNames.map((SuggestedName) => {
@@ -17,7 +17,7 @@ const ResultContainer = ({ SuggestedNames, writtenName, HeaderExpanded }) => {
 
         <div className="result-container">
             {HeaderExpanded ? ('') : (
-                <a className="card-link" href={`${youtubeSearch}${writtenName}`}>
+                <a className="card-link" href={`${InstaSearch}${currentName}`}>
                     <div className="result-name-card">
                         <p className="result-name">{writtenName}</p>
                     </div>

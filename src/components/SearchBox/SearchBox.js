@@ -6,7 +6,7 @@ const SearchBox = ({ onInputText }) => {
         <div className="search-container">
             <input
                 onChange={(event) => onInputText(event.target.value)}
-                placeholder="Type Keyword"
+                placeholder="Search"
                 className="search-input" />
         </div>
     )

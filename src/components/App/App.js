@@ -21,13 +21,17 @@ const App = () => {
     }
 
     return (
-        <div>
-            <Header headertitle={headertext}
-                HeaderExpanded={headerExpanded} />
-            <SearchBox onInputText={handleInputChange} />
-            <ResultContainer SuggestedNames={suggestedNames}
-                writtenName={writtenName}
-                HeaderExpanded={headerExpanded} />
+        <div className="container">
+            <div className="left-side">
+                <Header headertitle={headertext}
+                    HeaderExpanded={headerExpanded} />
+                <SearchBox onInputText={handleInputChange} />
+            </div>
+            <div>
+                <ResultContainer SuggestedNames={suggestedNames}
+                    writtenName={writtenName}
+                    HeaderExpanded={headerExpanded} />
+            </div>
         </div>
 
     )
